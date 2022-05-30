@@ -1,11 +1,10 @@
-package com.linhtch90.psnbackend.controller;
+package com.joegung.socialnetworkappbackend.controller;
 
-import com.linhtch90.psnbackend.entity.DoubleIdObjectEntity;
-import com.linhtch90.psnbackend.entity.IdObjectEntity;
-import com.linhtch90.psnbackend.entity.PostEntity;
-import com.linhtch90.psnbackend.service.PostService;
-import com.linhtch90.psnbackend.service.ResponseObjectService;
-
+import com.joegung.socialnetworkappbackend.entity.DoubleIdObjectEntity;
+import com.joegung.socialnetworkappbackend.entity.IdObjectEntity;
+import com.joegung.socialnetworkappbackend.entity.PostEntity;
+import com.joegung.socialnetworkappbackend.service.PostService;
+import com.joegung.socialnetworkappbackend.service.ResponseObjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

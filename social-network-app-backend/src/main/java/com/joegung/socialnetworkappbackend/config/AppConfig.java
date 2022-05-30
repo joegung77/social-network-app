@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.config;
+package com.joegung.socialnetworkappbackend.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

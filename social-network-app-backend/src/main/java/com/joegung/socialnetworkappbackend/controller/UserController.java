@@ -1,29 +1,19 @@
-package com.linhtch90.psnbackend.controller;
+package com.joegung.socialnetworkappbackend.controller;
 
-import java.security.Principal;
-import java.util.Optional;
-
-import com.linhtch90.psnbackend.entity.AuthorizedEntity;
-import com.linhtch90.psnbackend.entity.DoubleIdObjectEntity;
-import com.linhtch90.psnbackend.entity.IdObjectEntity;
-import com.linhtch90.psnbackend.entity.UserEntity;
-import com.linhtch90.psnbackend.entity.UserSignInEntity;
-import com.linhtch90.psnbackend.repository.UserRepository;
-import com.linhtch90.psnbackend.service.JWTUtil;
-import com.linhtch90.psnbackend.service.ResponseObjectService;
-import com.linhtch90.psnbackend.service.UserService;
-
+import com.joegung.socialnetworkappbackend.entity.*;
+import com.joegung.socialnetworkappbackend.repository.UserRepository;
+import com.joegung.socialnetworkappbackend.service.JWTUtil;
+import com.joegung.socialnetworkappbackend.service.ResponseObjectService;
+import com.joegung.socialnetworkappbackend.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.security.Principal;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1")

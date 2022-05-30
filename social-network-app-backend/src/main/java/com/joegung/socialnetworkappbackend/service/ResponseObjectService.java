@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.service;
+package com.joegung.socialnetworkappbackend.service;
 
 public class ResponseObjectService {
     private String status;

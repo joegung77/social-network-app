@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.entity;
+package com.joegung.socialnetworkappbackend.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

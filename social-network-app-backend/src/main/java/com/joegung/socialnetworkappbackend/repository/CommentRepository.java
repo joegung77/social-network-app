@@ -1,7 +1,7 @@
-package com.linhtch90.psnbackend.repository;
+package com.joegung.socialnetworkappbackend.repository;
 
-import com.linhtch90.psnbackend.entity.CommentEntity;
 
+import com.joegung.socialnetworkappbackend.entity.CommentEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

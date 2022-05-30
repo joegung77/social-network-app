@@ -1,4 +1,4 @@
-package com.linhtch90.psnbackend.config;
+package com.joegung.socialnetworkappbackend.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,6 +13,6 @@ public class Swagger2Config {
 
     @Bean
     public Docket api() {
-        return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.basePackage("com.linhtch90.psnbackend")).build();
+        return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.basePackage("com.joegung.socialnetworkappbackend")).build();
     }
 }

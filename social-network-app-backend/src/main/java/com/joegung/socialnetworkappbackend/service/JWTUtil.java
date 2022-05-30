@@ -1,15 +1,14 @@
-package com.linhtch90.psnbackend.service;
-
-import java.util.Base64;
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
-
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+package com.joegung.socialnetworkappbackend.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import java.util.Base64;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 @Component
 public class JWTUtil {

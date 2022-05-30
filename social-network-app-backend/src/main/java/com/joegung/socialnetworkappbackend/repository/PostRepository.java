@@ -1,11 +1,11 @@
-package com.linhtch90.psnbackend.repository;
+package com.joegung.socialnetworkappbackend.repository;
+
+import com.joegung.socialnetworkappbackend.entity.PostEntity;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
-
-import com.linhtch90.psnbackend.entity.PostEntity;
-import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PostRepository extends MongoRepository<PostEntity, String> {

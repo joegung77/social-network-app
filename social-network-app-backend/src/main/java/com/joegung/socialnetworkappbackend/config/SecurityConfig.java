@@ -1,7 +1,6 @@
-package com.linhtch90.psnbackend.config;
+package com.joegung.socialnetworkappbackend.config;
 
-import com.linhtch90.psnbackend.filter.SecurityFilter;
-
+import com.joegung.socialnetworkappbackend.filter.SecurityFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;

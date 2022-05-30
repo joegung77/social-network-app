@@ -1,21 +1,16 @@
-package com.linhtch90.psnbackend.service;
+package com.joegung.socialnetworkappbackend.service;
+
+import com.joegung.socialnetworkappbackend.entity.*;
+import com.joegung.socialnetworkappbackend.repository.PostRepository;
+import com.joegung.socialnetworkappbackend.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
-
-import com.linhtch90.psnbackend.entity.DoubleIdObjectEntity;
-import com.linhtch90.psnbackend.entity.IdObjectEntity;
-import com.linhtch90.psnbackend.entity.PostByFollowing;
-import com.linhtch90.psnbackend.entity.PostEntity;
-import com.linhtch90.psnbackend.entity.UserEntity;
-import com.linhtch90.psnbackend.repository.PostRepository;
-import com.linhtch90.psnbackend.repository.UserRepository;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 @Service
 public class PostService {
