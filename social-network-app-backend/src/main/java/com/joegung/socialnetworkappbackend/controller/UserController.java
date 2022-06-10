@@ -30,7 +30,7 @@ public class UserController {
     @Autowired
     private UserRepository userRepo;
 
-    @GetMapping("/users")
+    @PostMapping("/users")
     public ResponseEntity<ResponseObjectService> findAllUsers() {
         return new ResponseEntity<ResponseObjectService>(userService.findAll(), HttpStatus.OK);
     }
@@ -50,12 +50,12 @@ public class UserController {
         return new ResponseEntity<ResponseObjectService>(userService.unfollowUser(doubleId), HttpStatus.OK);
     }
 
-    @GetMapping("/users/getfollowing")
+    @PostMapping("/users/getfollowing")
     public ResponseEntity<ResponseObjectService> findFollowing(@RequestBody IdObjectEntity inputId) {
         return new ResponseEntity<ResponseObjectService>(userService.findFollowing(inputId.getId()), HttpStatus.OK);
     }
 
-    @GetMapping("/users/getfollower")
+    @PostMapping("/users/getfollower")
     public ResponseEntity<ResponseObjectService> findFollower(@RequestBody IdObjectEntity inputId) {
         return new ResponseEntity<ResponseObjectService>(userService.findFollower(inputId.getId()), HttpStatus.OK);
     }
