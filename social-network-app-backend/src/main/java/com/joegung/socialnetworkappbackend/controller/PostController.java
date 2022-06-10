@@ -21,12 +21,12 @@ public class PostController {
         return new ResponseEntity<ResponseObjectService>(postService.insertPost(inputPost), HttpStatus.OK);
     }
     
-    @GetMapping("/myposts")
+    @PostMapping("/myposts")
     public ResponseEntity<ResponseObjectService> findPostByUserId(@RequestBody IdObjectEntity inputUserId) {
         return new ResponseEntity<ResponseObjectService>(postService.findPostByUserId(inputUserId), HttpStatus.OK);
     }
 
-    @GetMapping("/followingposts")
+    @PostMapping("/followingposts")
     public ResponseEntity<ResponseObjectService> findPostByFollowing(@RequestBody IdObjectEntity inputUserId) {
         return new ResponseEntity<ResponseObjectService>(postService.findPostByFollowing(inputUserId), HttpStatus.OK);
     }

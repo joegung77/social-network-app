@@ -23,7 +23,7 @@ public class CommentController {
         return new ResponseEntity<ResponseObjectService>(commentService.insertComment(inputComment, inputPostId.getId()), HttpStatus.OK);
     }
 
-    @GetMapping("/getcomments")
+    @PostMapping("/getcomments")
     public ResponseEntity<ResponseObjectService> getComments(@RequestBody IdObjectEntity inputPostId) {
         return new ResponseEntity<ResponseObjectService>(commentService.getComments(inputPostId.getId()), HttpStatus.OK);
     }
