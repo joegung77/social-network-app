@@ -4,18 +4,27 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
+    background-color: #4B9CD3;
+    
 }
 
 .colContainerRight {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 .colContainerLeft {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+                 -1px -1px 0 #000;
+				
 }
 
 .leftBackground {
@@ -25,11 +34,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    
+    
 }
 
 .colWithButtons {
     width: 50%;
-    color: #34bf5c;
+    color: #4B9CD3;
 }
 
 .linkTextFormat {
@@ -44,6 +55,7 @@
 
 .btnHomePage {
     width: 100%;
+    
 }
 
 @media only screen and (max-width: 575px) { 
