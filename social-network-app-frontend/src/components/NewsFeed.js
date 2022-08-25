@@ -44,7 +44,7 @@ function NewsFeed() {
               <img src={logo} width="125" alt="logo" />
             </Col>
             <Col className="text-sm-start text-center text-success mb-sm-0 mb-3">
-              <h1>Penguin Social Network</h1>
+              <h1>JGung Social Network</h1>
             </Col>
           </Row>
         </Col>

@@ -6,12 +6,14 @@
     align-items: center;
     background-color: #4B9CD3;
     
+    
 }
 
 .colContainerRight {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
     
 }
@@ -33,7 +35,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: whitesmoke;
     
     
 }
@@ -58,6 +60,8 @@
     
 }
 
+
+
 @media only screen and (max-width: 575px) { 
     .colContainerLeft {
         display: none;
@@ -66,5 +70,8 @@
     .colWithButtons {
         width: 95%;
         text-align: center;
+        
     }
 }
+
+
