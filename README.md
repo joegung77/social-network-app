@@ -1,5 +1,5 @@
-# JGung's Social Network App
-## Created to Demo Usage of React.js, Spring Boot, and MongoDB
+# **JGung's Social Network App**
+## *Created to Demo Usage of React.js, Spring Boot, and MongoDB*
 
 
 ### Instructions
@@ -15,10 +15,10 @@
 
 ### Features
 
--Share posts of up to 200 characters
+- Share posts of up to 200 characters
 
--Upload images
+- Upload images
 
--Comment on friends' posts
+- Comment on friends' posts
 
 
