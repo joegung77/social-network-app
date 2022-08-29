@@ -2,7 +2,7 @@
 ## *Created to Demo Usage of React.js, Spring Boot, and MongoDB*
 
 
-### Instructions
+### **Instructions**
 
 **1.** Notify host to start up server.
 
@@ -13,7 +13,7 @@
 **4.** Click **Sign Up** or **Sign In** if you have already created an account.
 
 
-### Features
+### **Features**
 
 - Share posts of up to 200 characters
 
