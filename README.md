@@ -1,5 +1,5 @@
 # **JGung's Social Network App**
-## *Created to Demo Usage of React.js, Spring Boot, and MongoDB*
+## *Created to Demo Usage of React.js, Spring Boot, and MongoDB in a Web Application*
 
 
 ### **Instructions**
