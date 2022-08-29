@@ -1,5 +1,5 @@
 # JGung's Social Network App
-## Created to Demo Usage of React.js and Spring Boot
+## Created to Demo Usage of React.js, Spring Boot, and MongoDB
 
 
 ### Instructions
@@ -10,7 +10,7 @@
 
 **3.** Join via https://joegungsocialnetwork.pagekite.me
 
-**4.** Click **Sign Up** or *Sign In** if you have already created an account.
+**4.** Click **Sign Up** or **Sign In** if you have already created an account.
 
 
 ### Features
