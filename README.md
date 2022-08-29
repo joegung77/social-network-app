@@ -3,10 +3,15 @@
 
 
 ## Instructions
+
 **1.** Notify host to start up server.
+
 **2.** Disable Firewalls.
+
 **3.** Join via https://joegungsocialnetwork.pagekite.me
+
 **4.** Click **Sign Up** or *Sign In** if you have already created an account.
+
 
 ## Features
 
