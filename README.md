@@ -2,7 +2,7 @@
 ### Created to Demo Usage of React.js and Spring Boot
 
 
-## Instructions
+##### Instructions
 
 **1.** Notify host to start up server.
 
@@ -13,6 +13,6 @@
 **4.** Click **Sign Up** or *Sign In** if you have already created an account.
 
 
-## Features
+##### Features
 
 
