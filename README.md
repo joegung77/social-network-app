@@ -1,16 +1,7 @@
 # **JGung's Social Network App**
-## *Created to Demo Usage of React.js, Spring Boot, and MongoDB in a Web Application*
+## *Built from React.js, Spring Boot, and MongoDB*
 
-
-### **Instructions**
-
-**1.** Notify host to start up server.
-
-**2.** Disable Firewalls.
-
-**3.** Join via https://joegungsocialnetwork.pagekite.me
-
-**4.** Click **Sign Up** or **Sign In** if you have already created an account.
+![Alt text](demo-images/homepage.png?raw=true "homepage")
 
 
 ### **Features**
@@ -20,5 +11,28 @@
 - Upload images
 
 - Comment on friends' posts
+
+<br>
+<br>
+
+## Sign Up 
+![Alt text](demo-images/signup.png?raw=true "sign up")
+
+<br>
+
+## User Feed
+![Alt text](demo-images/feed.png?raw=true "feed")
+
+<br>
+
+## Swagger UI for API Documentation
+![Alt text](demo-images/swagger1.png?raw=true "swagger1")
+
+<br>
+
+## MongoDB Compass
+![Alt text](demo-images/mongodb.png?raw=true "mongodb")
+
+
 
 
